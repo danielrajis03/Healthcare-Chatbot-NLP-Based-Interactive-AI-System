@@ -31,16 +31,23 @@ Regex for name extraction
 CSV for FAQ and healthcare data
 
 # 📁 Project Structure
-.
-├── main.py                  # Entry point for the chatbot
-├── converse.py              # Core conversation logic and flow management
-├── intent_recognition.py    # Intent detection using NLP
-├── healthcare_booking.py    # Appointment management (book/view/cancel)
-├── identity_management.py   # Handles UUIDs and name personalisation
-├── intents.json             # Predefined small talk and task-based intents
-├── healthcare_info.csv      # Dataset of healthcare professionals/services
-├── qa_dataset.csv           # FAQs used in information retrieval
-├── healthcare_bookings.db   # SQLite database storing appointments
+main.py – Entry point for the chatbot
+
+converse.py – Core conversation logic and flow management
+
+intent_recognition.py – Intent detection using NLP
+
+healthcare_booking.py – Appointment management (book/view/cancel)
+
+identity_management.py – Handles UUIDs and name personalisation
+
+intents.json – Predefined small talk and task-based intents
+
+healthcare_info.csv – Dataset of healthcare professionals/services
+
+qa_dataset.csv – FAQs used in information retrieval
+
+healthcare_bookings.db – SQLite database storing appointments
 
 # Author
 Daniel Duru-Rajis
