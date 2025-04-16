@@ -1,0 +1,178 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Good day",
+                "Hey there",
+                "Yo"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How can I assist you?",
+                "Greetings! How may I help you?"
+            ]
+        },
+        {
+            "tag": "book_appointment",
+            "patterns": [
+                "I want to book an appointment",
+                "Can I schedule an appointment?",
+                "I need to book an appointment",
+                "Book an appointment for me",
+                "I'd like to make a healthcare appointment",
+                "Can I make a healthcare appointment?"
+            ],
+            "responses": [
+                "Sure, I can help with that. What type of healthcare service do you need? (e.g., general practitioner, dentist, specialist)",
+                "Certainly! What type of healthcare service are you looking for?"
+            ]
+        },
+        {
+            "tag": "cancel_appointment",
+            "patterns": [
+                "Cancel my appointment",
+                "I need to cancel my booking",
+                "I can't make it, cancel my appointment"
+            ],
+            "responses": [
+                "I can assist with that. Could you please provide your appointment ID?",
+                "Sure thing, I'll need some details to find your appointment."
+            ]
+        },
+        {
+            "tag": "modify_appointment",
+            "patterns": [
+                "Change my appointment",
+                "Can I modify my booking?",
+                "I need to change the date of my appointment",
+                "I need to modify my appointment please"
+            ],
+            "responses": [
+                "I'd be happy to help with that. What changes do you need to make?",
+                "Sure, please tell me what you'd like to change in your appointment."
+            ]
+        },
+        {
+            "tag": "view_appointments",
+            "patterns": [
+                "Can I see my appointment?",
+                "Can I view my healthcare booking?",
+                "Show my appointment booking",
+                "List my appointment",
+                "What is my upcoming healthcare appointment?",
+                "view an appointment",
+                "view appointment"
+            ],
+            "responses": ["Here is your appointment:"]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Goodbye",
+                "That's all, thanks",
+                "No more questions",
+                "Bye"
+            ],
+            "responses": [
+                "Goodbye! Let me know if there's anything else I can help with.",
+                "Thank you for using our service. Have a great day!"
+            ]
+        },
+        {
+            "tag": "what_can_you_do",
+            "patterns": [
+                "What can you do?", 
+                "What are you able to do",
+                "What can you do for me?",
+                "Tell me your functions", 
+                "What are your capabilities?", 
+                "How can you assist me?", 
+                "What help can you provide?"
+            ],
+            "responses":[
+                "I can assist you with healthcare bookings, including making, modifying, viewing or cancelling appointments. I can also answer your general queries!", 
+                "I'm here to help with all your healthcare booking needs, whether it's making a new appointment, changing an existing one, or getting information about healthcare services.",
+                "My main function is to assist you in booking healthcare appointments effortlessly, and also answer your questions. Just let me know what you need, and I'll handle the rest!"
+            ]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "How are you?",
+                "How you?",
+                "How's it going?", 
+                "What's up?",
+                "How have you been?",
+                "How do you feel?",
+                "How you doing?"
+            ],
+            "responses": [
+                "I'm a chatbot, so I don't have feelings, but thanks for asking!",
+                "As a bot, I don't experience emotions, but I'm here to help you!",
+                "I'm doing well, as much as an AI can. How can I assist you?"
+            ]
+        },
+        {
+            "tag": "name_query",
+            "patterns": [
+                "What is my name?",
+                "Do you know my name?",
+                "Can you tell me my name?",
+                "What's my name?",
+                "Do you remember my name?"
+            ],
+            "responses":[
+                "Your name is {detected_name}.",
+                "I believe your name is {detected_name}.",
+                "{detected_name}, that's your name."
+            ]
+        },
+        {
+            "tag": "severe_symptoms",
+            "patterns": [
+                "I feel really bad",
+                "I'm having severe pain",
+                "I'm experiencing severe symptoms",
+                "I feel like it's an emergency",
+                "I need urgent help"
+            ],
+            "responses": [
+                "I'm really sorry to hear that. Please call 999 immediately for emergency assistance.",
+                "It sounds like you're experiencing severe symptoms. Please dial 999 for urgent medical help."
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Much appreciated",
+                "Thank you so much for your service"
+            ],
+            "responses":[
+                "Thank you! I'm here to provide the best service I can.",
+                "That's very kind of you to say! How else can I assist you today?",
+                "I appreciate your compliment! Let me know if there's more I can do for you."
+            ]
+        },
+        {
+            "tag": "acknowledgment",
+            "patterns": [
+                "Ok",
+                "Alright",
+                "Got it",
+                "Sure",
+                "Okay"
+            ],
+            "responses": [
+                "Great, let's continue.",
+                "Alright, what would you like to do next?",
+                "Okay, is there anything else I can help with?",
+                "Sure, how can I further assist you?"
+            ]
+        }
+    ]
+}
