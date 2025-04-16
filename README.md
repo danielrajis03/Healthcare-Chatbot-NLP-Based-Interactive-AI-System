@@ -2,6 +2,7 @@
 An intelligent, conversational AI system designed to assist patients with healthcare-related queries, appointment management, and general information retrieval. This chatbot leverages Natural Language Processing (NLP) techniques like TF-IDF vectorization and cosine similarity to deliver context-aware, human-like interactions with a focus on usability, personalisation, and efficient healthcare access.
 
 # 🚀 Features #
+
 Intent Recognition: Understands user queries (e.g., booking, cancellation, FAQs) using TF-IDF and cosine similarity.
 
 Appointment Management: Books, views, and cancels appointments via a robust SQLite backend.
