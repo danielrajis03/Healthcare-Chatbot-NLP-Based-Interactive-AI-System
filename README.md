@@ -1,7 +1,7 @@
-🏥 Healthcare Chatbot – NLP-Based Interactive AI System
+# 🏥 Healthcare Chatbot – NLP-Based Interactive AI System #
 An intelligent, conversational AI system designed to assist patients with healthcare-related queries, appointment management, and general information retrieval. This chatbot leverages Natural Language Processing (NLP) techniques like TF-IDF vectorization and cosine similarity to deliver context-aware, human-like interactions with a focus on usability, personalisation, and efficient healthcare access.
 
-🚀 Features
+# 🚀 Features #
 Intent Recognition: Understands user queries (e.g., booking, cancellation, FAQs) using TF-IDF and cosine similarity.
 
 Appointment Management: Books, views, and cancels appointments via a robust SQLite backend.
@@ -18,7 +18,7 @@ Error Handling: Handles ambiguous queries gracefully with fallback prompts.
 
 Usability & Performance Tested: Achieved 88% intent accuracy and positive CUQ scores.
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used #
 Python
 
 Natural Language Processing (TF-IDF, cosine similarity)
@@ -29,7 +29,7 @@ Regex for name extraction
 
 CSV for FAQ and healthcare data
 
-📁 Project Structure
+# 📁 Project Structure
 .
 ├── main.py                  # Entry point for the chatbot
 ├── converse.py              # Core conversation logic and flow management
@@ -41,7 +41,7 @@ CSV for FAQ and healthcare data
 ├── qa_dataset.csv           # FAQs used in information retrieval
 ├── healthcare_bookings.db   # SQLite database storing appointments
 
-Author
+# Author
 Daniel Duru-Rajis
 
 
